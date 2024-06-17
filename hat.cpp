@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 
-
 typedef long long ll;
 #define int ll
-
 
 //#include <ext/pb_ds/assoc_container.hpp>
 //#include <ext/pb_ds/tree_policy.hpp>
@@ -11,23 +9,21 @@ typedef long long ll;
 //using ordered_set = tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>;
 
 void setmax (int &x, const int &y) { if (x < y) x = y; }
+void setmin (int &x, const int &y) { if (x > y) x = y; }
 
 using namespace std;
 using ld = long double;
 using pi = pair<int, int>;
 using vi = vector<int>;
 
-
 #define endl "\n"
 #define S second
 #define F first
 #define all(a) a.begin(), a.end()
 #define rall(a) a.rbegin(), a.rend()
-#define forn(i, n) for(int i = 0; i < ll(n); i++)
 #define mp make_pair
 #define pb push_back
 #define sz(x) ll((x).size())
-
 #define newln cout << endl;
 #define yes "YES\n"
 #define no "NO\n"
@@ -39,15 +35,18 @@ ostream &operator<<(ostream &os, const vector<T> &a) {
     return os;
 }
 
-
 /* ================== actual code =================== */
 
 
 void solve() {
+
 }
 
 
 signed main() {
+#ifdef HOME
+    freopen("input.txt", "r", stdin);
+#endif
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
