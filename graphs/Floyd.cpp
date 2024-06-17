@@ -1,4 +1,4 @@
-//this algo is so easy there is actually no point in this, but im still add it
+//this algo is so easy there is actually no point in this, but i still added it
 
 for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
